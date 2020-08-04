@@ -9,7 +9,7 @@ $header[] = "X-AppVersion: 3.46.1";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
-$header[] = "X-Location: -7.738869,110.262198";
+$header[] = "X-Location: -8.6631".mt_rand(100,999).",115.21".mt_rand(1000,9999);
 $header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
@@ -103,7 +103,8 @@ $header[] = "X-AppVersion: 3.46.1";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
-$header[] = "X-Location: -8.608".mt_rand(100,999).",116.12".mt_rand(1000,9999);
+$header[] = "X-Location: -7.738869,110.262198";
+$header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
     endif;
